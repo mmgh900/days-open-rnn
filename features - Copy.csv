@@ -1,25 +1,23 @@
 Feature,Data Type,Mean,Std,Min,25%,50%,75%,Max,% Missing,Description
-Serial,Nominal,,,,,,,,0.00,
-Lactation,Numeric,2.545981109,1.647042967,1,1,2,3,13,0.00,Lactation number
-DaysOpen,Numeric,149.209321,70.77971119,71,95,129,182,400,0.00,Days open
-TimesBred,Numeric,2.790589913,1.646937792,1,2,2,4,14,0.00,Number of times bred
-AgeAtCalvingInDays,Numeric,1777.585368,689.2572152,816,1206,1589,2139.75,5398,0.00,Age at calving in days
-AverageBodyScore,Numeric,3.053989179,0.287019838,1.833333333,2.863636364,3.072222222,3.238888889,4.5,29.64,Average body score
-AverageMotionScore,Numeric,2.166114727,0.823251042,1,1.6,2,2.6,5,67.20,Average motion score
+DaysOpen,Numeric,149.209321,70.77971119,71,95,129,182,400,0,Days open
+TimesBred,Numeric,2.790589913,1.646937792,1,2,2,4,14,0,Number of times bred before conception
+AgeAtCalvingInDays,Numeric,1777.585368,689.2572152,816,1206,1589,2139.75,5398,0,Age at calving in days
+AverageBodyScore,Numeric,3.053989179,0.287019838,1.83,2.86,3.07,3.24,4.5,29.64,Average body score between two calving events
+AverageMotionScore,Numeric,2.166114727,0.823251042,1,1.6,2,2.6,5,67.2,Average body score between two calving events
 InbreedingCoefficient,Numeric,3.856027273,8.108456707,0,0,0.390625,3.234862,65.625,44.75,Inbreeding coefficient
-AverageMilk,Numeric,35.31278834,9.91344266,5.637336683,29.84407954,36.50203268,41.73161144,74.2707037,73.75,Average milk yield
-ECM,Numeric,6134.163068,4268.47769,366.83841,3245.999018,4563.005415,8283.135718,26458.08613,73.75,Energy-corrected milk yield
-FatProteinRatio,Numeric,0.961670186,0.217590343,0.190687361,0.836442706,0.972144583,1.094980867,2.527777778,88.58,Fat to protein ratio
-StillBirth,Binary,0.027802531,0.164413986,0,0,0,0,1,0.00,Still birth (0 or 1)
-Abortion,Binary,0.137943326,0.344855857,0,0,0,0,1,0.00,Abortion (0 or 1)
-MultiBirth,Binary,0.055605061,0.229167665,0,0,0,0,1,0.00,Multiple birth (0 or 1)
-NaturalBreeding,Binary,0.082249153,0.274756178,0,0,0,0,1,0.00,Natural breeding (0 or 1)
-Lameness,Binary,0.067367671,0.250668839,0,0,0,0,1,0.00,Lameness score
-Mastitis,Binary,0.019515238,0.138333288,0,0,0,0,1,0.00,Mastitis score
-Ketosis,Binary,0.009445732,0.096733363,0,0,0,0,1,0.00,Ketosis score
-RetainedPlacenta,Binary,0.047674211,0.213085492,0,0,0,0,1,0.00,Retained placenta (0 or 1)
-DisplacedAbomasum,Binary,0.007485297,0.086197037,0,0,0,0,1,0.00,Displaced abomasum (0 or 1)
-Winter,Binary,0.294867225,0.456003371,0,0,0,1,1,0.00,Winter season (0 or 1)
-Spring,Binary,0.306629834,0.461114873,0,0,0,1,1,0.00,Spring season (0 or 1)
-Summer,Binary,0.327570843,0.469348288,0,0,0,1,1,0.00,Summer season (0 or 1)
-Fall,Binary,0.296025664,0.456522773,0,0,0,1,1,0.00,Fall season (0 or 1)
+AverageMilk,Numeric,35.31278834,9.91344266,5.64,29.84,36.50,41.73,74.27,73.75,Average milk yield 
+ECM,Numeric,6134.163068,4268.47769,366.84,3246.00,4563.01,8283.14,26458.09,73.75,Energy-corrected milk yield 
+FatProteinRatio,Numeric,0.961670186,0.217590343,0.19,0.84,0.97,1.09,2.53,88.58,Fat to protein ratio
+StillBirth,Binary,0.027802531,0.164413986,0,0,0,0,1,0,Still birth (0 or 1)
+Abortion,Binary,0.137943326,0.344855857,0,0,0,0,1,0,Abortion (0 or 1)
+MultiBirth,Binary,0.055605061,0.229167665,0,0,0,0,1,0,Multiple birth (0 or 1)
+NaturalBreeding,Binary,0.082249153,0.274756178,0,0,0,0,1,0,Natural breeding (0 or 1)
+Lameness,Binary,0.067367671,0.250668839,0,0,0,0,1,0,Lameness score
+Mastitis,Binary,0.019515238,0.138333288,0,0,0,0,1,0,Mastitis score
+Ketosis,Binary,0.009445732,0.096733363,0,0,0,0,1,0,Ketosis score
+RetainedPlacenta,Binary,0.047674211,0.213085492,0,0,0,0,1,0,Retained placenta (0 or 1)
+DisplacedAbomasum,Binary,0.007485297,0.086197037,0,0,0,0,1,0,Displaced abomasum (0 or 1)
+Winter,Binary,0.294867225,0.456003371,0,0,0,1,1,0,Winter season (0 or 1)
+Spring,Binary,0.306629834,0.461114873,0,0,0,1,1,0,Spring season (0 or 1)
+Summer,Binary,0.327570843,0.469348288,0,0,0,1,1,0,Summer season (0 or 1)
+Fall,Binary,0.296025664,0.456522773,0,0,0,1,1,0,Fall season (0 or 1)
